@@ -1,14 +1,16 @@
 import firebase from "firebase";
 import "firebase/auth";
 
+
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyCJr7QS9oiHlveBhmXQV0CHpQE11iD8FOI",
-  authDomain: "auth-development-3b7b6.firebaseapp.com",
-  databaseURL: "https://auth-development-3b7b6-default-rtdb.firebaseio.com",
-  projectId: "auth-development-3b7b6",
-  storageBucket: "auth-development-3b7b6.appspot.com",
-  messagingSenderId: "881199061944",
-  appId: "1:881199061944:web:29e87237190dc9e1e2cd4d",
+  apiKey: "AIzaSyBJG_M9UYsVHMZcnjiFkrjd4KBtz_-pnTY",
+  authDomain: "fir-auth-c2276.firebaseapp.com",
+  databaseURL: "https://fir-auth-c2276-default-rtdb.firebaseio.com/",
+  projectId: "fir-auth-c2276",
+  storageBucket: "fir-auth-c2276.appspot.com",
+  messagingSenderId: "252135233646",
+  appId: "1:252135233646:web:e584448e3608fddd7e6e7f",
+  measurementId: "G-GF9VGV53V0"
 });
 
 export default app;
